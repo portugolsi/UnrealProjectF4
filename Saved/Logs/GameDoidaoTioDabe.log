@@ -1,0 +1,614 @@
+﻿Log file open, 03/15/24 08:39:30
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GameDoidaoTioDabe
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1734147837) SRandInit(-1734147837).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.241388
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2024.03.15-11.39.36:652][  0]LogInit: Selected Device Profile: [Windows]
+[2024.03.15-11.39.36:652][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.03.15-11.39.36:880][  0]LogInit: Computer: SGSL0103
+[2024.03.15-11.39.36:880][  0]LogInit: User: SuperGeeks
+[2024.03.15-11.39.36:880][  0]LogInit: CPU Page size=4096, Cores=4
+[2024.03.15-11.39.36:880][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.03.15-11.39.36:881][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2024.03.15-11.39.36:881][  0]LogMemory: Platform Memory Stats for Windows
+[2024.03.15-11.39.36:881][  0]LogMemory: Process Physical Memory: 278.58 MB used, 278.58 MB peak
+[2024.03.15-11.39.36:881][  0]LogMemory: Process Virtual Memory: 280.09 MB used, 280.09 MB peak
+[2024.03.15-11.39.36:881][  0]LogMemory: Physical Memory: 7004.29 MB used,  1087.98 MB free, 8092.27 MB total
+[2024.03.15-11.39.36:881][  0]LogMemory: Virtual Memory: 4794.20 MB used,  1087.98 MB free, 134217728.00 MB total
+[2024.03.15-11.39.39:490][  0]LogInit: Overriding language with editor language configuration option (pt-BR).
+[2024.03.15-11.39.39:490][  0]LogInit: Overriding locale with editor locale configuration option (pt-BR).
+[2024.03.15-11.40.00:467][  0]LogD3D11RHI: D3D11 adapters:
+[2024.03.15-11.40.01:155][  0]LogD3D11RHI:    0. 'AMD Radeon R5 M200 / HD 8500M Series' (Feature Level 11_0)
+[2024.03.15-11.40.01:155][  0]LogD3D11RHI:       2039/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2024.03.15-11.40.01:163][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2024.03.15-11.40.01:163][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2024.03.15-11.40.01:446][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.03.15-11.40.01:446][  0]LogD3D11RHI:       0/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.03.15-11.40.01:446][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2024.03.15-11.40.01:477][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.03.15-11.40.01:477][  0]LogD3D11RHI:     GPU DeviceId: 0x6663 (for the marketing name, search the web for "GPU Device Id")
+[2024.03.15-11.40.01:477][  0]LogWindows: EnumDisplayDevices:
+[2024.03.15-11.40.01:477][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2024.03.15-11.40.01:478][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2024.03.15-11.40.01:478][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2024.03.15-11.40.01:478][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R5 M200 / HD 8500M Series
+[2024.03.15-11.40.01:478][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2024.03.15-11.40.01:478][  0]LogD3D11RHI:      Driver Date: Unknown
+[2024.03.15-11.40.01:478][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2024.03.15-11.40.01:639][  0]LogD3D11RHI: Async texture creation enabled
+[2024.03.15-11.40.01:936][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2024.03.15-11.40.01:945][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Intermediate/Shaders/WorkingDirectory/9272/).
+[2024.03.15-11.40.01:946][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SuperGeeks/AppData/Local/Temp/UnrealShaderWorkingDir/D7452E1B42CB46D74444149B795ACB03/'.
+[2024.03.15-11.40.01:946][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2024.03.15-11.40.20:684][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2024.03.15-11.40.20:889][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2024.03.15-11.40.21:072][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2024.03.15-11.40.21:223][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2024.03.15-11.40.21:409][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2024.03.15-11.40.21:610][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2024.03.15-11.40.21:819][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2024.03.15-11.40.22:049][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2024.03.15-11.40.22:213][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2024.03.15-11.40.22:473][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.03.15-11.40.22:665][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2024.03.15-11.40.22:848][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2024.03.15-11.40.23:009][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2024.03.15-11.40.23:176][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2024.03.15-11.40.23:309][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2024.03.15-11.40.23:689][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2024.03.15-11.40.23:689][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2024.03.15-11.40.23:873][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2024.03.15-11.40.24:395][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2024.03.15-11.40.24:480][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2024.03.15-11.40.24:672][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2024.03.15-11.40.24:822][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2024.03.15-11.40.24:976][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2024.03.15-11.40.25:152][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2024.03.15-11.40.25:152][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.03.15-11.40.29:722][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2024.03.15-11.40.42:095][  0]LogDerivedDataCache: Loaded boot cache 12.37s 93MB C:/Users/SuperGeeks/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2024.03.15-11.40.42:096][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SuperGeeks/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2024.03.15-11.40.42:096][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.03.15-11.40.42:096][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.03.15-11.40.42:096][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.03.15-11.40.42:096][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2024.03.15-11.40.42:114][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2024.03.15-11.40.42:127][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SuperGeeks/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2024.03.15-11.40.42:138][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2024.03.15-11.40.42:138][  0]LogSlate: Using Freetype 2.6.0
+[2024.03.15-11.40.42:323][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.03.15-11.40.42:323][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.03.15-11.41.10:124][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
+[2024.03.15-11.41.10:432][  0]LogInit: Selected Device Profile: [Windows]
+[2024.03.15-11.41.13:642][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2024.03.15-11.41.13:893][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2024.03.15-11.41.13:893][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.03.15-11.41.13:893][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2024.03.15-11.41.13:893][  0]LogMeshReduction: No automatic mesh merging module available
+[2024.03.15-11.41.13:893][  0]LogMeshMerging: No automatic mesh merging module available
+[2024.03.15-11.41.13:895][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2024.03.15-11.41.15:516][  0]LogNetVersion: GameDoidaoTioDabe , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1434724526)
+[2024.03.15-11.41.16:795][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.527629 seconds
+[2024.03.15-11.41.16:801][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2024.03.15-11.41.16:801][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2024.03.15-11.41.16:801][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.03.15-11.41.17:158][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2024.03.15-11.42.46:493][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.03.15-11.42.46:669][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.03.15-11.42.50:569][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2024.03.15-11.42.59:249][  0]SourceControl: Controle de origem desativado
+[2024.03.15-11.42.59:249][  0]SourceControl: Controle de origem desativado
+[2024.03.15-11.42.59:637][  0]SourceControl: Controle de origem desativado
+[2024.03.15-11.42.59:863][  0]SourceControl: Controle de origem desativado
+[2024.03.15-11.43.03:941][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.03.15-11.43.05:134][  0]LogOcInput: OculusInput pre-init called
+[2024.03.15-11.43.06:493][  0]LogEngine: Initializing Engine...
+[2024.03.15-11.43.06:496][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.03.15-11.43.06:763][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.03.15-11.43.06:763][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.03.15-11.43.07:246][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.03.15-11.43.07:350][  0]LogInit: XAudio2 using 'EPSON PJ (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.03.15-11.43.07:406][  0]LogInit: FAudioDevice initialized.
+[2024.03.15-11.43.08:288][  0]LogDerivedDataCache: Saved boot cache 0.88s 93MB C:/Users/SuperGeeks/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2024.03.15-11.43.08:304][  0]LogInit: Texture streaming: Enabled
+[2024.03.15-11.43.09:500][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.03.15-11.43.11:796][  0]LogInit: Transaction tracking system initialized
+[2024.03.15-11.43.14:051][  0]BlueprintLog: New page: Carregar Editor
+[2024.03.15-11.43.18:420][  0]LocalizationService: Localization service is disabled
+[2024.03.15-11.43.21:972][  0]LogConsoleResponse: Display: 
+[2024.03.15-11.43.24:375][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/' took 0.11s
+[2024.03.15-11.43.24:375][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2024.03.15-11.43.24:375][  0]LogCook: Display: Mobile HDR setting 1
+[2024.03.15-11.43.24:375][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2024.03.15-11.43.30:935][  0]SourceControl: Controle de origem desativado
+[2024.03.15-11.43.30:935][  0]Cmd: MAP LOAD FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.03.15-11.43.31:097][  0]LightingResults: New page: Compilação de Iluminação
+[2024.03.15-11.43.31:220][  0]MapCheck: New page: Verificação de Mapa
+[2024.03.15-11.43.31:220][  0]LightingResults: New page: Compilação de Iluminação
+[2024.03.15-11.43.39:419][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2024.03.15-11.43.39:871][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.15-11.43.40:006][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.15-11.43.40:086][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78,916ms to complete.
+[2024.03.15-11.43.40:086][  0]LogFileHelpers: Loading map 'Minimal_Default' took 9.150
+[2024.03.15-11.43.47:408][  0]LogCollectionManager: Loaded 0 collections in 0.037994 seconds
+[2024.03.15-11.43.48:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Collections/' took 0.01s
+[2024.03.15-11.43.48:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Developers/SuperGeeks/Collections/' took 0.01s
+[2024.03.15-11.43.48:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Collections/' took 0.01s
+[2024.03.15-11.43.48:280][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2024.03.15-11.43.48:338][  0]LogContentBrowser: Native class hierarchy populated in 0.0483 seconds. Added 2386 classes and 500 folders.
+[2024.03.15-11.43.49:269][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2024.03.15-11.44.00:197][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2024.03.15-11.44.01:323][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2024.03.15-11.44.07:604][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2024.03.15-11.44.07:604][  0]LogLoad: (Engine Initialization) Total time: 286.97 seconds
+[2024.03.15-11.44.07:604][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.03.15-11.44.07:604][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2024.03.15-11.44.08:298][  0]LogContentStreaming: Texture pool size now 600 MB
+[2024.03.15-11.44.08:299][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.03.15-11.44.08:301][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.03.15-11.44.08:698][  0]LogSlate: Took 0.156781 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.03.15-11.44.12:139][  1]LogRenderer: Reallocating scene render targets to support 604x336 Format 9 NumSamples 1 (Frame:1).
+[2024.03.15-11.44.15:598][  3]LogAssetRegistry: Asset discovery search completed in 185.4964 seconds
+[2024.03.15-11.44.15:601][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2024.03.15-11.44.15:601][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000084 seconds (updated 0 objects)
+[2024.03.15-12.09.43:715][651]LogRenderer: Reallocating scene render targets to support 908x540 Format 9 NumSamples 1 (Frame:2009).
+[2024.03.15-12.12.09:154][643]LogSlate: Took 0.018220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2024.03.15-12.13.22:964][628]LogSlate: Took 0.099027 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.03.15-12.13.28:899][628]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2024.03.15-12.13.35:084][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2024.03.15-12.13.45:988][731]LogSlate: Took 0.112201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.03.15-12.13.56:478][ 19]LogSavePackage: Save=506.90ms
+[2024.03.15-12.13.56:478][ 19]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_Default652DD7C24A1D1A3ECBB983B25887CECE.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap'
+[2024.03.15-12.13.56:581][ 19]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap
+[2024.03.15-12.13.56:895][ 19]LogSavePackage: Save=83.05ms
+[2024.03.15-12.13.56:895][ 19]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_Default_BuiltData25DE194545A722206622C3BBDADBB994.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2024.03.15-12.13.56:899][ 19]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2024.03.15-12.14.34:070][943]LogSlate: Took 0.031487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.03.15-12.17.43:832][428]BlueprintLog: New page: Compilar MyGameMode
+[2024.03.15-12.18.24:255][441]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GameDoidaoTioDabe
+[2024.03.15-12.18.24:255][441]LogTemp: CWD: C:\Program Files\Unreal\UE_4.17\Engine\Binaries\DotNET\IOS
+[2024.03.15-12.18.24:255][441]LogTemp: Initial Dir: C:\Program Files\Unreal\UE_4.17
+[2024.03.15-12.18.24:255][441]LogTemp: Env CWD: C:\Program Files\Unreal\UE_4.17\Engine\Binaries\DotNET\IOS
+[2024.03.15-12.18.25:706][458]LogTemp: BranchPath = SGSL0103/C/Program Files/Unreal/UE_4.17/Engine/Binaries --- GameBranchPath = SGSL0103/C/Program Files/Unreal/UE_4.17/Engine/Binaries
+[2024.03.15-12.18.27:373][463]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\SuperGeeks\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2024.03.15-12.19.10:994][959]LogTemp: Repeating last play command: Selected Viewport
+[2024.03.15-12.19.12:118][959]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-12.19.12:134][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-12.19.12:379][959]PIE: New page: Sessão de PIE : Minimal_Default (15/03/2024 06:19:12)
+[2024.03.15-12.19.12:401][959]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2024.03.15-12.19.12:469][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067413s)
+[2024.03.15-12.19.12:470][959]LogAIModule: Creating AISystem for world Minimal_Default
+[2024.03.15-12.19.12:477][959]LogPlayLevel: PIE: World Init took: (0.007897s)
+[2024.03.15-12.19.12:486][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.092924s)
+[2024.03.15-12.19.12:560][959]LogInit: XAudio2 using 'EPSON PJ (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.03.15-12.19.12:577][959]LogInit: FAudioDevice initialized.
+[2024.03.15-12.19.13:149][959]LogLoad: Game class is 'MyGameMode_C'
+[2024.03.15-12.19.14:296][959]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2024.03.15-09.19.14
+[2024.03.15-12.19.14:347][959]LogWorld: Bringing up level for play took: 0.074008
+[2024.03.15-12.19.14:739][959]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2024.03.15-12.19.16:337][959]PIE: Momento de início de reprodução no editor para /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 4,805
+[2024.03.15-12.19.16:337][959]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-12.19.28:294][656]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-12.19.28:457][656]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-12.27.31:284][936]Cmd: SELECT NONE
+[2024.03.15-12.27.36:023][ 81]LogSavePackage: Save=53.04ms
+[2024.03.15-12.27.36:023][ 81]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_Default91E978A542C49B864F49B4B21704811B.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap'
+[2024.03.15-12.27.36:028][ 81]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap
+[2024.03.15-12.27.36:432][ 81]LogSavePackage: Save=43.23ms
+[2024.03.15-12.27.36:432][ 81]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_Default_BuiltData32BD06094364B4EB431E56A95F8A4992.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2024.03.15-12.27.36:437][ 81]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2024.03.15-12.27.38:236][150]LogSavePackage: Save=49.68ms
+[2024.03.15-12.27.38:236][150]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_Default5E80FB8E4385BDA6B37FB9B2CF3B2B58.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap'
+[2024.03.15-12.27.38:241][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap
+[2024.03.15-12.27.38:342][150]LogSavePackage: Save=43.62ms
+[2024.03.15-12.27.38:342][150]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_Default_BuiltData04A2A63B4C73FD16D70BD38053910202.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2024.03.15-12.27.38:348][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2024.03.15-12.27.39:207][184]LogSavePackage: Save=47.89ms
+[2024.03.15-12.27.39:207][184]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_Default6334EE9443B85C152758DFB96B8BAC71.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap'
+[2024.03.15-12.27.39:213][184]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap
+[2024.03.15-12.27.39:318][184]LogSavePackage: Save=49.70ms
+[2024.03.15-12.27.39:318][184]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_Default_BuiltData6547223741CCD01B8A8359B9F8625494.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2024.03.15-12.27.39:324][184]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2024.03.15-12.27.53:823][720]LogRenderer: Reallocating scene render targets to support 1144x712 Format 9 NumSamples 1 (Frame:1).
+[2024.03.15-12.30.09:099][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-12.30.09:395][ 57]LogSavePackage: Save=280.06ms
+[2024.03.15-12.30.09:395][ 57]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/PlayerC48CEF234A94BBA13C54DCAB8DAFD752.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-12.30.09:402][ 57]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-12.30.15:660][204]LogTemp: Repeating last play command: Selected Viewport
+[2024.03.15-12.30.15:685][204]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-12.30.15:685][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-12.30.15:685][204]PIE: New page: Sessão de PIE : Minimal_Default (15/03/2024 06:30:15)
+[2024.03.15-12.30.15:686][204]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2024.03.15-12.30.15:689][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003098s)
+[2024.03.15-12.30.15:690][204]LogAIModule: Creating AISystem for world Minimal_Default
+[2024.03.15-12.30.15:691][204]LogPlayLevel: PIE: World Init took: (0.001799s)
+[2024.03.15-12.30.15:691][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005250s)
+[2024.03.15-12.30.15:765][204]LogInit: XAudio2 using 'EPSON PJ (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.03.15-12.30.15:785][204]LogInit: FAudioDevice initialized.
+[2024.03.15-12.30.15:868][204]LogLoad: Game class is 'MyGameMode_C'
+[2024.03.15-12.30.15:872][204]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2024.03.15-09.30.15
+[2024.03.15-12.30.15:872][204]LogWorld: Bringing up level for play took: 0.002108
+[2024.03.15-12.30.15:875][204]PIE: Momento de início de reprodução no editor para /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0,342
+[2024.03.15-12.30.15:875][204]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-12.30.18:975][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-12.30.19:027][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-12.30.35:415][786]BlueprintLog: New page: Compilar Player
+[2024.03.15-12.30.37:299][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-12.30.37:346][814]LogSavePackage: Save=36.53ms
+[2024.03.15-12.30.37:346][814]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Player9A0C2EC64D32142C259DDD8A5306210B.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-12.30.37:359][814]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-12.30.39:793][890]LogTemp: Repeating last play command: Selected Viewport
+[2024.03.15-12.30.39:814][890]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-12.30.39:814][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-12.30.39:814][890]PIE: New page: Sessão de PIE : Minimal_Default (15/03/2024 06:30:39)
+[2024.03.15-12.30.39:815][890]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2024.03.15-12.30.39:818][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002998s)
+[2024.03.15-12.30.39:819][890]LogAIModule: Creating AISystem for world Minimal_Default
+[2024.03.15-12.30.39:819][890]LogPlayLevel: PIE: World Init took: (0.001156s)
+[2024.03.15-12.30.39:819][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004656s)
+[2024.03.15-12.30.39:858][890]LogInit: XAudio2 using 'EPSON PJ (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.03.15-12.30.39:875][890]LogInit: FAudioDevice initialized.
+[2024.03.15-12.30.39:918][890]LogLoad: Game class is 'MyGameMode_C'
+[2024.03.15-12.30.39:921][890]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2024.03.15-09.30.39
+[2024.03.15-12.30.39:921][890]LogWorld: Bringing up level for play took: 0.001757
+[2024.03.15-12.30.39:924][890]PIE: Momento de início de reprodução no editor para /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0,391
+[2024.03.15-12.30.39:924][890]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-12.30.53:273][721]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-12.30.53:321][721]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-12.39.53:051][561]BlueprintLog: New page: Compilar Player
+[2024.03.15-12.39.53:655][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-12.39.54:097][562]LogSavePackage: Save=30.37ms
+[2024.03.15-12.39.54:097][562]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/PlayerAC9698D740C93FA9EE0E4EACBD0592DE.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-12.39.54:101][562]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-12.40.23:779][322]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GameDoidaoTioDabe
+[2024.03.15-12.40.23:779][322]LogTemp: CWD: C:\Program Files\Unreal\UE_4.17\Engine\Binaries\DotNET\IOS
+[2024.03.15-12.40.23:779][322]LogTemp: Initial Dir: C:\Program Files\Unreal\UE_4.17
+[2024.03.15-12.40.23:779][322]LogTemp: Env CWD: C:\Program Files\Unreal\UE_4.17\Engine\Binaries\DotNET\IOS
+[2024.03.15-12.40.23:990][347]LogTemp: BranchPath = SGSL0103/C/Program Files/Unreal/UE_4.17/Engine/Binaries --- GameBranchPath = SGSL0103/C/Program Files/Unreal/UE_4.17/Engine/Binaries
+[2024.03.15-12.40.24:812][446]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\SuperGeeks\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2024.03.15-12.47.54:381][ 37]LogEditorTransaction: Undo Comment Bubble Visibility
+[2024.03.15-12.47.54:738][ 37]LogSlate: Took 0.017066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2024.03.15-12.50.21:592][136]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.023
+[2024.03.15-12.50.21:896][136]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2024.03.15-12.50.21:925][136]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2024.03.15-12.50.21:925][136]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2024.03.15-12.50.22:073][136]LogSavePackage: Save=29.16ms
+[2024.03.15-12.50.22:073][136]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Player_Auto17B4DE5C946959ED3BAA6B5A89CD83DC5.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Autosaves/Game/Blueprints/Player_Auto1.uasset'
+[2024.03.15-12.50.22:077][136]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Autosaves/Game/Blueprints/Player_Auto1.uasset
+[2024.03.15-12.50.22:078][136]LogFileHelpers: Auto-saving content packages took 0.450
+[2024.03.15-12.52.04:766][518]BlueprintLog: New page: Compilar Player
+[2024.03.15-13.00.23:349][683]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.696
+[2024.03.15-13.00.23:353][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2024.03.15-13.00.23:382][683]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2024.03.15-13.00.23:383][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2024.03.15-13.00.25:323][683]LogSavePackage: Save=674.20ms
+[2024.03.15-13.00.25:323][683]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Player_Auto2376AF42C4344BAF1B4934681CDD4D423.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Autosaves/Game/Blueprints/Player_Auto2.uasset'
+[2024.03.15-13.00.25:347][683]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Autosaves/Game/Blueprints/Player_Auto2.uasset
+[2024.03.15-13.00.25:347][683]LogFileHelpers: Auto-saving content packages took 1.997
+[2024.03.15-13.02.53:837][208]BlueprintLog: New page: Compilar Player
+[2024.03.15-13.02.54:710][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-13.02.54:782][223]LogSavePackage: Save=60.69ms
+[2024.03.15-13.02.54:782][223]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/PlayerB47227F74363C0C60C1F92B813DB6228.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-13.02.54:815][223]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-13.06.46:623][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-13.06.46:791][ 17]LogSavePackage: Save=118.58ms
+[2024.03.15-13.06.46:791][ 17]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/PlayerDB36EE5B4DAD34C0AE51689979CEA079.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-13.06.46:804][ 17]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-13.07.19:240][220]BlueprintLog: New page: Compilar Player
+[2024.03.15-13.07.23:735][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-13.07.23:987][370]LogSavePackage: Save=243.99ms
+[2024.03.15-13.07.23:987][370]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/PlayerAFC969E64C8043A851FD78926075A2FB.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-13.07.23:991][370]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-13.07.27:463][507]LogTemp: Repeating last play command: Selected Viewport
+[2024.03.15-13.07.27:491][507]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.07.27:491][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-13.07.27:491][507]PIE: New page: Sessão de PIE : Minimal_Default (15/03/2024 07:07:27)
+[2024.03.15-13.07.27:491][507]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2024.03.15-13.07.27:535][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030854s)
+[2024.03.15-13.07.27:536][507]LogAIModule: Creating AISystem for world Minimal_Default
+[2024.03.15-13.07.27:537][507]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2024.03.15-13.07.27:537][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.044843s)
+[2024.03.15-13.07.27:726][507]LogInit: XAudio2 using 'EPSON PJ (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.03.15-13.07.27:855][507]LogInit: FAudioDevice initialized.
+[2024.03.15-13.07.27:923][507]LogLoad: Game class is 'MyGameMode_C'
+[2024.03.15-13.07.27:925][507]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2024.03.15-10.07.27
+[2024.03.15-13.07.27:925][507]LogWorld: Bringing up level for play took: 0.001265
+[2024.03.15-13.07.27:943][507]PIE: Momento de início de reprodução no editor para /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0,41
+[2024.03.15-13.07.27:943][507]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.08.14:674][441]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.08.14:732][441]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.10.23:121][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-13.10.23:197][328]LogSavePackage: Save=67.33ms
+[2024.03.15-13.10.23:197][328]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/PlayerE3F7799847F1443C085455B0C6435B83.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-13.10.23:206][328]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-13.12.15:435][223]BlueprintLog: New page: Compilar Player
+[2024.03.15-13.12.16:093][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-13.12.16:183][231]LogSavePackage: Save=78.26ms
+[2024.03.15-13.12.16:184][231]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/PlayerB6B7EAC54CB91D089CECC0AC9C5D7477.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-13.12.16:188][231]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-13.12.18:715][327]LogTemp: Repeating last play command: Selected Viewport
+[2024.03.15-13.12.18:732][327]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.12.18:732][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-13.12.18:732][327]PIE: New page: Sessão de PIE : Minimal_Default (15/03/2024 07:12:18)
+[2024.03.15-13.12.18:732][327]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2024.03.15-13.12.18:760][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028126s)
+[2024.03.15-13.12.18:761][327]LogAIModule: Creating AISystem for world Minimal_Default
+[2024.03.15-13.12.18:761][327]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2024.03.15-13.12.18:761][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.029503s)
+[2024.03.15-13.12.18:820][327]LogInit: XAudio2 using 'EPSON PJ (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.03.15-13.12.18:939][327]LogInit: FAudioDevice initialized.
+[2024.03.15-13.12.18:980][327]LogLoad: Game class is 'MyGameMode_C'
+[2024.03.15-13.12.18:982][327]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2024.03.15-10.12.18
+[2024.03.15-13.12.18:983][327]LogWorld: Bringing up level for play took: 0.001158
+[2024.03.15-13.12.19:006][327]PIE: Momento de início de reprodução no editor para /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0,527
+[2024.03.15-13.12.19:006][327]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.14.45:781][685]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.14.45:830][685]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.15.43:267][676]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.023
+[2024.03.15-13.15.43:272][676]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2024.03.15-13.15.43:272][676]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2024.03.15-13.15.43:447][676]LogSavePackage: Save=165.92ms
+[2024.03.15-13.15.43:447][676]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Player_Auto3233FC78E44C99DC3FDF117ACC804AD62.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Autosaves/Game/Blueprints/Player_Auto3.uasset'
+[2024.03.15-13.15.43:452][676]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Autosaves/Game/Blueprints/Player_Auto3.uasset
+[2024.03.15-13.15.43:452][676]LogFileHelpers: Auto-saving content packages took 0.184
+[2024.03.15-13.16.15:773][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-13.16.15:875][ 51]LogSavePackage: Save=93.35ms
+[2024.03.15-13.16.15:875][ 51]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Player91EAD58F455DBCB712AF8F887C94FE05.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-13.16.15:896][ 51]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-13.16.16:379][ 70]BlueprintLog: New page: Compilar Player
+[2024.03.15-13.16.17:070][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-13.16.17:150][ 82]LogSavePackage: Save=70.86ms
+[2024.03.15-13.16.17:150][ 82]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Player30C78AD14B4D9F0204BFFFB54F2ECAF1.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-13.16.17:155][ 82]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-13.16.18:474][130]LogTemp: Repeating last play command: Selected Viewport
+[2024.03.15-13.16.18:491][130]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.16.18:491][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-13.16.18:491][130]PIE: New page: Sessão de PIE : Minimal_Default (15/03/2024 07:16:18)
+[2024.03.15-13.16.18:491][130]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2024.03.15-13.16.18:493][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001969s)
+[2024.03.15-13.16.18:494][130]LogAIModule: Creating AISystem for world Minimal_Default
+[2024.03.15-13.16.18:495][130]LogPlayLevel: PIE: World Init took: (0.001485s)
+[2024.03.15-13.16.18:495][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003867s)
+[2024.03.15-13.16.18:544][130]LogInit: XAudio2 using 'EPSON PJ (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.03.15-13.16.18:587][130]LogInit: FAudioDevice initialized.
+[2024.03.15-13.16.18:623][130]LogLoad: Game class is 'MyGameMode_C'
+[2024.03.15-13.16.18:654][130]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2024.03.15-10.16.18
+[2024.03.15-13.16.18:654][130]LogWorld: Bringing up level for play took: 0.030045
+[2024.03.15-13.16.18:656][130]PIE: Momento de início de reprodução no editor para /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1,124
+[2024.03.15-13.16.18:656][130]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.16.22:854][398]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.16.22:914][398]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.16.22:969][399]Cmd: SELECT NONE
+[2024.03.15-13.16.23:742][437]LogTemp: Repeating last play command: Selected Viewport
+[2024.03.15-13.16.23:759][437]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.16.23:760][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-13.16.23:760][437]PIE: New page: Sessão de PIE : Minimal_Default (15/03/2024 07:16:23)
+[2024.03.15-13.16.23:760][437]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2024.03.15-13.16.23:762][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002395s)
+[2024.03.15-13.16.23:763][437]LogAIModule: Creating AISystem for world Minimal_Default
+[2024.03.15-13.16.23:763][437]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2024.03.15-13.16.23:764][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003804s)
+[2024.03.15-13.16.23:791][437]LogInit: XAudio2 using 'EPSON PJ (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.03.15-13.16.23:823][437]LogInit: FAudioDevice initialized.
+[2024.03.15-13.16.23:854][437]LogLoad: Game class is 'MyGameMode_C'
+[2024.03.15-13.16.23:857][437]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2024.03.15-10.16.23
+[2024.03.15-13.16.23:857][437]LogWorld: Bringing up level for play took: 0.001687
+[2024.03.15-13.16.23:859][437]PIE: Momento de início de reprodução no editor para /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0,326
+[2024.03.15-13.16.23:859][437]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.16.29:396][796]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.16.29:442][796]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.16.30:248][831]LogTemp: Repeating last play command: Selected Viewport
+[2024.03.15-13.16.30:265][831]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.16.30:266][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-13.16.30:266][831]PIE: New page: Sessão de PIE : Minimal_Default (15/03/2024 07:16:30)
+[2024.03.15-13.16.30:266][831]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2024.03.15-13.16.30:269][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002819s)
+[2024.03.15-13.16.30:269][831]LogAIModule: Creating AISystem for world Minimal_Default
+[2024.03.15-13.16.30:270][831]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2024.03.15-13.16.30:270][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003920s)
+[2024.03.15-13.16.30:297][831]LogInit: XAudio2 using 'EPSON PJ (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.03.15-13.16.30:372][831]LogInit: FAudioDevice initialized.
+[2024.03.15-13.16.30:404][831]LogLoad: Game class is 'MyGameMode_C'
+[2024.03.15-13.16.30:407][831]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2024.03.15-10.16.30
+[2024.03.15-13.16.30:407][831]LogWorld: Bringing up level for play took: 0.001425
+[2024.03.15-13.16.30:410][831]PIE: Momento de início de reprodução no editor para /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0,877
+[2024.03.15-13.16.30:410][831]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.16.35:372][151]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.16.35:417][151]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.16.45:612][611]LogSavePackage: Save=58.84ms
+[2024.03.15-13.16.45:612][611]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_DefaultCD9790894873AF6E25AD8FA274336963.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap'
+[2024.03.15-13.16.45:617][611]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap
+[2024.03.15-13.16.45:787][611]LogSavePackage: Save=38.72ms
+[2024.03.15-13.16.45:787][611]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_Default_BuiltDataDFF3B9E348AEDF09FB607891C7EABBFA.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2024.03.15-13.16.45:792][611]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2024.03.15-13.17.29:736][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-13.17.29:798][641]LogSavePackage: Save=48.72ms
+[2024.03.15-13.17.29:798][641]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Player4F29BC924C57FE7BDBF1C8B1B9AF93FA.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-13.17.29:808][641]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-13.17.30:453][666]BlueprintLog: New page: Compilar Player
+[2024.03.15-13.17.31:094][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-13.17.31:165][675]LogSavePackage: Save=60.35ms
+[2024.03.15-13.17.31:165][675]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Player2091F30F411AF88C464F049A34AA6F1F.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-13.17.31:169][675]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-13.17.35:003][824]LogTemp: Repeating last play command: Selected Viewport
+[2024.03.15-13.17.35:019][824]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.17.35:019][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-13.17.35:019][824]PIE: New page: Sessão de PIE : Minimal_Default (15/03/2024 07:17:35)
+[2024.03.15-13.17.35:019][824]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2024.03.15-13.17.35:021][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001820s)
+[2024.03.15-13.17.35:022][824]LogAIModule: Creating AISystem for world Minimal_Default
+[2024.03.15-13.17.35:022][824]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2024.03.15-13.17.35:022][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002797s)
+[2024.03.15-13.17.35:050][824]LogInit: XAudio2 using 'EPSON PJ (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.03.15-13.17.35:064][824]LogInit: FAudioDevice initialized.
+[2024.03.15-13.17.35:095][824]LogLoad: Game class is 'MyGameMode_C'
+[2024.03.15-13.17.35:097][824]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2024.03.15-10.17.35
+[2024.03.15-13.17.35:097][824]LogWorld: Bringing up level for play took: 0.001178
+[2024.03.15-13.17.35:099][824]PIE: Momento de início de reprodução no editor para /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0,433
+[2024.03.15-13.17.35:100][824]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.17.49:743][753]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.17.49:788][753]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.18.32:520][847]BlueprintLog: New page: Compilar Player
+[2024.03.15-13.18.33:987][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-13.18.34:043][886]LogSavePackage: Save=47.61ms
+[2024.03.15-13.18.34:044][886]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Player84F2DE4F47886E4E9CF74E9DA40C4C3D.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-13.18.34:054][886]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-13.18.35:763][955]LogTemp: Repeating last play command: Selected Viewport
+[2024.03.15-13.18.35:779][955]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.18.35:779][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.15-13.18.35:779][955]PIE: New page: Sessão de PIE : Minimal_Default (15/03/2024 07:18:35)
+[2024.03.15-13.18.35:779][955]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2024.03.15-13.18.35:781][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001659s)
+[2024.03.15-13.18.35:782][955]LogAIModule: Creating AISystem for world Minimal_Default
+[2024.03.15-13.18.35:782][955]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2024.03.15-13.18.35:782][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002816s)
+[2024.03.15-13.18.35:811][955]LogInit: XAudio2 using 'EPSON PJ (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.03.15-13.18.35:825][955]LogInit: FAudioDevice initialized.
+[2024.03.15-13.18.35:880][955]LogLoad: Game class is 'MyGameMode_C'
+[2024.03.15-13.18.35:883][955]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2024.03.15-10.18.35
+[2024.03.15-13.18.35:883][955]LogWorld: Bringing up level for play took: 0.001173
+[2024.03.15-13.18.35:886][955]PIE: Momento de início de reprodução no editor para /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0,353
+[2024.03.15-13.18.35:886][955]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.18.44:721][514]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.18.44:767][514]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2024.03.15-13.18.54:516][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-13.18.54:573][856]LogSavePackage: Save=46.94ms
+[2024.03.15-13.18.54:573][856]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/PlayerDF44988E4B07164994DAAB860393ABCB.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-13.18.54:583][856]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-13.22.41:103][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-13.22.41:163][794]LogSavePackage: Save=47.90ms
+[2024.03.15-13.22.41:164][794]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Player5DD96EC4454EF42BC62F1B921C3E722F.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-13.22.41:173][794]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-13.23.00:561][487]BlueprintLog: New page: Compilar Player
+[2024.03.15-13.23.01:318][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset" SILENT=true
+[2024.03.15-13.23.01:374][501]LogSavePackage: Save=46.61ms
+[2024.03.15-13.23.01:374][501]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/PlayerE599A649407F206A385C3A9014DA48D7.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset'
+[2024.03.15-13.23.01:378][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/Blueprints/Player.uasset
+[2024.03.15-13.23.03:156][569]LogSavePackage: Save=35.95ms
+[2024.03.15-13.23.03:156][569]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_Default76E275F042D5C64ECA5A1DA27D4263D9.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap'
+[2024.03.15-13.23.03:160][569]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap
+[2024.03.15-13.23.03:237][569]LogSavePackage: Save=36.05ms
+[2024.03.15-13.23.03:238][569]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_Default_BuiltDataF5722B044E0B67B12C04109D71CED2F4.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2024.03.15-13.23.03:242][569]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2024.03.15-13.23.06:248][681]LogSavePackage: Save=40.44ms
+[2024.03.15-13.23.06:249][681]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_DefaultF1175CAA48F6994BAD09CC9BE4C885BB.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap'
+[2024.03.15-13.23.06:253][681]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap
+[2024.03.15-13.23.06:328][681]LogSavePackage: Save=35.67ms
+[2024.03.15-13.23.06:328][681]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_Default_BuiltDataF0867C1244911CDF289B6086F2E05C03.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2024.03.15-13.23.06:333][681]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2024.03.15-13.28.06:180][947]LogSavePackage: Save=37.67ms
+[2024.03.15-13.28.06:180][947]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_DefaultBFD32B62408E17BF7C0CBA80510016DD.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap'
+[2024.03.15-13.28.06:184][947]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default.umap
+[2024.03.15-13.28.06:262][947]LogSavePackage: Save=35.35ms
+[2024.03.15-13.28.06:262][947]LogSavePackage: Moving '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Saved/Minimal_Default_BuiltData80AA816F480DAF1BB9C11A922607438F.tmp' to '../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2024.03.15-13.28.06:266][947]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/SuperGeeks/Documents/Unreal Projects/GameDoidaoTioDabe/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
